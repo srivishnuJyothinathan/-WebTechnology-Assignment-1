@@ -1,31 +1,134 @@
-WEB TECHNOLOGY - ASSIGNMENT I
-KPR Institute of Engineering and Technology
-Academic Year: 2026-2027
+# Web Technology – Assignment I
 
-Folders:
-1. Q1_Internet_and_Web
-2. Q2_Student_Admission_Form
-3. Q3_Fashion_Store_Homepage
-4. Q4_Student_Grade_Calculator
-5. Q5_Supermarket_Billing_System
+## Student Details
 
-HOW TO RUN:
-- Open each folder.
-- Double-click index.html, or open it with a browser.
-- Q1, Q2 and Q3 demonstrate HTML5/CSS3 concepts.
-- Q4 and Q5 demonstrate JavaScript concepts.
+**Name:** SRIVISHNU J  
+**Roll No:** 24CS214  
+**Department:** Computer Science and Engineering  
+**Year:** III  
+**Section:** V / D  
+**Course:** U21CS501 – Web Technology  
 
-Q2 MEDIA:
-The admission form contains a generated placeholder college image.
-Replace it with your own college image if required.
-For audio/video demonstration, add:
-college-audio.mp3
-college-video.mp4
+---
 
-SCREENSHOTS:
-Take browser screenshots of each question's output and include them in your final submission.
+## Assignment Overview
 
-CONCLUSION:
-The assignment demonstrates HTML5 webpage structure, CSS3 styling and responsive
-design, along with JavaScript variables, operators, selection, iteration and
-user-defined functions.
+This repository contains the complete implementation of **Web Technology – Assignment I**.
+
+The assignment demonstrates HTML5, CSS3 and JavaScript concepts through five practical web applications.
+
+---
+
+## Questions
+
+### Q1 – Internet and World Wide Web Fundamentals
+
+A simple webpage explaining:
+
+- Internet Overview
+- Fundamental Computer Network Concepts
+- URL and its Structure
+- Domain Name
+- Web Browsers and Web Servers
+- Working Principle of a Website
+- Client-side and Server-side Scripting
+
+**Technologies:** HTML5, CSS3
+
+---
+
+### Q2 – Student Admission Form
+
+A responsive student admission form demonstrating:
+
+- HTML Form Elements
+- Different Input Types
+- Image, Audio and Video Media Elements
+- CSS3 Selectors
+- CSS Box Model
+- Responsive User Interface
+
+**Technologies:** HTML5, CSS3, JavaScript
+
+---
+
+### Q3 – Online Fashion Store Homepage
+
+A fashion store homepage demonstrating:
+
+- Backgrounds and Borders
+- Text Effects
+- CSS Animations
+- Multiple Column Layout
+- User Interface Design Principles
+
+**Technologies:** HTML5, CSS3
+
+---
+
+### Q4 – Student Grade Calculator
+
+A JavaScript application that accepts marks for five subjects and calculates:
+
+- Total
+- Average
+- Grade
+- Pass/Fail Status
+
+The program demonstrates:
+
+- Variables and Data Types
+- Literals
+- Operators
+- Selection Statements
+- Iteration
+- User-defined Functions
+
+**Technologies:** HTML5, CSS3, JavaScript
+
+---
+
+### Q5 – Supermarket Billing System
+
+A JavaScript billing application for three products.
+
+Features:
+
+- Accepts quantity and unit price
+- Calculates individual product amounts
+- Calculates total bill
+- Applies 10% discount when total exceeds ₹2000
+- Displays final payable amount
+
+**Technologies:** HTML5, CSS3, JavaScript
+
+---
+
+## Project Structure
+
+```text
+WebTechnology-Assignment-1/
+│
+├── Q1_Internet_and_Web/
+│   ├── index.html
+│   └── style.css
+│
+├── Q2_Student_Admission_Form/
+│   ├── index.html
+│   ├── style.css
+│   ├── script.js
+│   └── college-placeholder.svg
+│
+├── Q3_Fashion_Store_Homepage/
+│   ├── index.html
+│   └── style.css
+│
+├── Q4_Student_Grade_Calculator/
+│   ├── index.html
+│   ├── style.css
+│   └── script.js
+│
+└── Q5_Supermarket_Billing_System/
+    ├── index.html
+    ├── style.css
+    └── script.js
