@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+<rect width="800" height="500" fill="#eef4fb"/>
+<rect x="90" y="180" width="620" height="230" fill="#ffffff" stroke="#b9cceb" stroke-width="4"/>
+<polygon points="70,180 400,70 730,180" fill="#dbe8f8" stroke="#9fb9dc" stroke-width="4"/>
+<rect x="355" y="300" width="90" height="110" fill="#eef4fb" stroke="#9fb9dc" stroke-width="3"/>
+<text x="400" y="455" text-anchor="middle" font-family="Arial" font-size="32" fill="#2457a6">COLLEGE CAMPUS</text>
+</svg>

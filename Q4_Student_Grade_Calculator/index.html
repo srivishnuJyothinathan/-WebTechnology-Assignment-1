@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Q4 - Student Grade Calculator</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+<header><h1>Student Grade Calculator</h1><p>Enter marks for five subjects</p></header>
+
+<div class="subjects">
+<label>Subject 1 <input id="mark1" type="number" min="0" max="100" placeholder="0-100"></label>
+<label>Subject 2 <input id="mark2" type="number" min="0" max="100" placeholder="0-100"></label>
+<label>Subject 3 <input id="mark3" type="number" min="0" max="100" placeholder="0-100"></label>
+<label>Subject 4 <input id="mark4" type="number" min="0" max="100" placeholder="0-100"></label>
+<label>Subject 5 <input id="mark5" type="number" min="0" max="100" placeholder="0-100"></label>
+</div>
+
+<button onclick="calculateGrade()">Calculate Result</button>
+<div id="result" class="result">Enter marks and click Calculate Result.</div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

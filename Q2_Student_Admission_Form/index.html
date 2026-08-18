@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Q2 - Student Admission Form</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+<header>
+<h1>Student Admission Form</h1>
+<p>Academic Year 2026-2027</p>
+</header>
+
+<form id="admissionForm">
+<fieldset>
+<legend>Personal Information</legend>
+<div class="grid">
+<div><label for="name">Full Name</label><input id="name" type="text" required placeholder="Enter full name"></div>
+<div><label for="dob">Date of Birth</label><input id="dob" type="date" required></div>
+<div><label for="email">Email</label><input id="email" type="email" required placeholder="name@example.com"></div>
+<div><label for="phone">Mobile Number</label><input id="phone" type="tel" pattern="[0-9]{10}" required placeholder="10 digit number"></div>
+<div><label for="age">Age</label><input id="age" type="number" min="16" max="30"></div>
+<div><label>Gender</label><div class="radio"><label><input type="radio" name="gender" value="Male"> Male</label><label><input type="radio" name="gender" value="Female"> Female</label><label><input type="radio" name="gender" value="Other"> Other</label></div></div>
+</div>
+</fieldset>
+
+<fieldset>
+<legend>Academic Information</legend>
+<div class="grid">
+<div><label for="course">Course</label><select id="course" required><option value="">Select Course</option><option>B.E. Computer Science and Engineering</option><option>B.Tech Artificial Intelligence and Data Science</option><option>B.E. Information Technology</option><option>B.E. Electronics and Communication</option></select></div>
+<div><label for="percentage">12th Percentage</label><input id="percentage" type="number" min="0" max="100" step="0.01"></div>
+<div><label for="photo">Student Photo</label><input id="photo" type="file" accept="image/*"></div>
+<div><label for="certificate">Marksheet</label><input id="certificate" type="file" accept=".pdf,.jpg,.png"></div>
+</div>
+</fieldset>
+
+<fieldset>
+<legend>Address</legend>
+<label for="address">Communication Address</label>
+<textarea id="address" rows="5" placeholder="Enter your address"></textarea>
+</fieldset>
+
+<fieldset>
+<legend>Additional Information</legend>
+<label for="website">Personal Website</label>
+<input id="website" type="url" placeholder="https://example.com">
+<label class="check"><input type="checkbox" required> I agree to the admission terms and conditions.</label>
+</fieldset>
+
+<section class="media">
+<h2>College Media</h2>
+<div class="media-grid">
+<div><img src="college-placeholder.svg" alt="College placeholder image"></div>
+<div><audio controls><source src="college-audio.mp3" type="audio/mpeg">Audio is not available.</audio></div>
+<div><video controls poster="college-placeholder.svg"><source src="college-video.mp4" type="video/mp4">Video is not available.</video></div>
+</div>
+<p class="note">Replace the sample media filenames with your own college image, audio and video if required.</p>
+</section>
+
+<div class="buttons">
+<button type="submit">Submit Application</button>
+<button type="reset" class="secondary">Reset</button>
+</div>
+<p id="message"></p>
+</form>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
